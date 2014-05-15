@@ -1,0 +1,58 @@
+---
+abstract: 'Client api for the rest api of Activiti'
+author:
+  - 'Nicolas Franck <nicolas.franck@ugent.be>'
+build_requires:
+  Software::License: 0
+  Test::Exception: 0
+  Test::More: 0
+configure_requires:
+  Module::Build: 0.42
+dynamic_config: 1
+generated_by: 'Module::Build version 0.4203, CPAN::Meta::Converter version 2.133380'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Activiti-Rest-Client
+provides:
+  Activiti::Rest::Client:
+    file: lib/Activiti/Rest/Client.pm
+    version: 0.1
+  Activiti::Rest::Error:
+    file: lib/Activiti/Rest/Error.pm
+  Activiti::Rest::Error::Conflict:
+    file: lib/Activiti/Rest/Error.pm
+  Activiti::Rest::Error::Forbidden:
+    file: lib/Activiti/Rest/Error.pm
+  Activiti::Rest::Error::InternalServerError:
+    file: lib/Activiti/Rest/Error.pm
+  Activiti::Rest::Error::MethodNotAllowed:
+    file: lib/Activiti/Rest/Error.pm
+  Activiti::Rest::Error::NotFound:
+    file: lib/Activiti/Rest/Error.pm
+  Activiti::Rest::Error::UnAuthorized:
+    file: lib/Activiti/Rest/Error.pm
+  Activiti::Rest::Error::UnsupportedMediaType:
+    file: lib/Activiti/Rest/Error.pm
+  Activiti::Rest::Response:
+    file: lib/Activiti/Rest/Response.pm
+  Activiti::Rest::UserAgent:
+    file: lib/Activiti/Rest/UserAgent.pm
+  Activiti::Rest::UserAgent::LWP:
+    file: lib/Activiti/Rest/UserAgent/LWP.pm
+  Activiti::Sane:
+    file: lib/Activiti/Sane.pm
+recommends:
+  Term::ReadKey: 0
+requires:
+  Carp: 0
+  Data::Util: 0
+  LWP::UserAgent: 0
+  Moo: 0
+  Throwable::Error: 0
+  URI::Escape: 0
+  perl: v5.10.0
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.1
