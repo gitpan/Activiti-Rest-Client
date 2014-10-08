@@ -44,7 +44,7 @@
    "provides" : {
       "Activiti::Rest::Client" : {
          "file" : "lib/Activiti/Rest/Client.pm",
-         "version" : "0.12"
+         "version" : "0.121"
       },
       "Activiti::Rest::Error" : {
          "file" : "lib/Activiti/Rest/Error.pm"
@@ -89,5 +89,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.12"
+   "version" : "0.121"
 }

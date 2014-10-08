@@ -18,7 +18,7 @@ name: Activiti-Rest-Client
 provides:
   Activiti::Rest::Client:
     file: lib/Activiti/Rest/Client.pm
-    version: 0.12
+    version: 0.121
   Activiti::Rest::Error:
     file: lib/Activiti/Rest/Error.pm
   Activiti::Rest::Error::Conflict:
@@ -55,4 +55,4 @@ requires:
   perl: v5.10.0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.12
+version: 0.121
