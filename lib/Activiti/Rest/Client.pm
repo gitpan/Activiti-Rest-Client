@@ -7,7 +7,7 @@ use JSON qw(decode_json encode_json);
 use URI::Escape qw(uri_escape);
 use Activiti::Rest::Response;
 
-our $VERSION = "0.121";
+our $VERSION = "0.122";
 
 #see: http://www.activiti.org/userguide
 
@@ -1377,5 +1377,15 @@ sub update_form {
   );
   Activiti::Rest::Response->from_http_response($res);
 }
+
+=head1 LICENSE AND COPYRIGHT
+
+This program is free software; you can redistribute it and/or modify it
+under the terms of either: the GNU General Public License as published
+by the Free Software Foundation; or the Artistic License.
+
+See L<http://dev.perl.org/licenses/> for more information.
+
+=cut
 
 1;
