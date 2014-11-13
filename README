@@ -353,6 +353,18 @@ METHODS
 
         GET runtime/tasks/:taskId/variables?scope=:scope
 
+  task_variable
+      Get one variable for a task
+
+      Parameters:
+
+        taskId
+        scope (global|local)
+
+      equal to rest call:
+
+        GET runtime/tasks/:taskId/variables/:variableName?scope=:scope
+
   task_identity_links
       Get all identity links for a task
 
