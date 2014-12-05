@@ -541,6 +541,24 @@ METHODS
 
         GET history/historic-task-instances
 
+  historic_variable_instances
+      Get historic variable instances, either from tasks or process instances
+
+      Parameters: see user guide (http://www.activiti.org/userguide/index.html#restHistoricVariableInstancesGet)
+
+      equal to rest call:
+
+        GET history/historic-variable-instances
+
+  query_historic_variable_instances
+      Query historic variable instances, either from tasks or process instances
+
+      Parameters: see user guide (http://www.activiti.org/userguide/index.html#N15B00)
+
+      equal to rest call:
+
+        POST query/historic-variable-instances
+
   historic_task_instance
       Get a historic task instance
 

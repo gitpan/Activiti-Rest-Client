@@ -40,4 +40,4 @@ resources:
   bugtracker: https://github.com/Universiteitsbibliotheek/Activiti-Rest-Client/issues
   homepage: https://github.com/Universiteitsbibliotheek/Activiti-Rest-Client
   repository: https://github.com/Universiteitsbibliotheek/Activiti-Rest-Client.git
-version: 0.123
+version: 0.124
